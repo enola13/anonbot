@@ -4,7 +4,7 @@ from telegram.error import Forbidden
 import asyncio
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 GROUP_CHAT_ID = -1002663001994
 GROUP_URL = "https://t.me/PrivasichatRuang"
 
